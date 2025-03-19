@@ -1,0 +1,34 @@
+'''frase = "Cabeça orelha corpo olhos nariz boca labios"
+      print (frase)
+      print (frase)
+      print (frase)
+      print (frase)'''
+'''palavra_1 = "Hello"
+palavra_2 = "World"
+frase = palavra_1 + palavra_2
+print(frase)
+frase = frase + "bom dia flor do dia"
+print (frase)'''
+'''frase = input("Escreva uma palavra: ")
+print(frase)
+frase = frase + input("Diga outra palavra: ")
+print (frase)'''
+a = int(input("Diga um número: "))
+b = int(input("Diga outro número: "))
+
+'''Serve para identificar o tipo da variavel'''
+'''print (type(b))
+Serve para fazer textos "bonitos"
+print(f"A soma é {a+b}")'''
+
+'''Serve para diferenciar números de maior menor, maleavel a resposta'''
+'''O f antes do texto identifica as variaveis no texto printado'''
+'''print(f"A operação {a} > {b} resulta em {a>b}")
+print(f"A operação {a} < {b} resulta em {a<b}")
+print(f"A operação {a} + {b} resulta em {a+b}")
+print(f"A operação {a} * {b} resulta em {a*b}")
+print(f"A operação {a} == {b} resulta em {a==b}")'''
+'''O "and" serve para fazer uma inclusão de variaveis onde as duas tenham que ser nescessariamente verdadeiras para dar true'''
+c = int(input("Digite outro numero: "))
+d = int(input("Digite um ultimo numero:"))
+print(f"A operação {a} != {b} é {c} == {d}, ou seja {a!=b} é {c==d}, da {a!=b and c==d}")

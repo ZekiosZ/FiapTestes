@@ -31,16 +31,23 @@ if compradas<12:
     print(f"Voce comprou {compradas} maças pelo valor de 0,30 cada totalizando {conta2} reais")
 else:
     print(f"Voce comprou {compradas} maças pelo valor de 0,25 cada totalizando {conta1} reais")
+
 '''Exercicio 5'''
 a=int(input("Escreva um Número"))
 b=int(input("Escreva outro Número"))
 c=int(input("Escreva outro Número"))
 if a>b:
+    aux=a
     a=b
-if a>c:
-    a=c
+    b=aux
 if b>c:
+    aux=b
     b=c
+    c=aux
+if a>b:
+    aux=b
+    b=a
+    a=aux
 print("Os valores em ordem crescente ficam", a, b, c)
 
 '''Exercicio 6'''
@@ -70,11 +77,17 @@ a=int(input("Escreva um Número"))
 b=int(input("Escreva outro Número"))
 c=int(input("Escreva outro Número"))
 if a<b:
+    aux=a
     a=b
+    b=aux
 if a<c:
+    aux=a
     a=c
+    c=aux
 if b<c:
+    aux=a
     a=c
+    c=aux
     print("O maior Número e", a)
 
 '''Exercicio 10'''

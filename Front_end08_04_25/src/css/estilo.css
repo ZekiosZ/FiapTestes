@@ -1,0 +1,38 @@
+/*seletor universal*/
+*{
+     margin:0;
+     padding:0;
+     box-sizing: border-box;
+}
+body{
+    background: transparent;
+}
+#container{
+  display:flex;/*deixa a tela flexivel*/
+  flex-direction: column;/*quando diminuir a tela deixa em colunas*/
+  gap:20px;/*espaçamento entre os elementos*/
+  padding: 20px;/*espaçamento interno*/
+}
+header{
+    background: yellow;
+    text-align: center;
+    padding: 20px;
+}
+#conteudo{
+    background: purple;
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
+#counteudo article{
+    display: flex;
+    flex-direction: column;
+}
+aside{
+    background: lightcoral;
+    padding: 20px;
+}
+footer{
+    background: goldenrod;
+    padding: 40px;
+}
